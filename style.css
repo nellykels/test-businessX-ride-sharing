@@ -104,8 +104,8 @@ span{
 }
 .footer{
   display: flex;
-  justify-content: space-between;
   padding-bottom: 50px;
+  margin-left: 80px;
 }
 .footer h3{
   font-size: 17px;
@@ -141,13 +141,13 @@ select{
   margin-left: 30px;
 }
 .biz{
-  margin-left: -150px;
+  margin-left: 70px;
 }
 .help1{
-  margin-left: -140px;
+  margin-left: 80px;
 }
 .socials{
-  margin-right: 270px;
+  margin-left: 90px;
 }
 .help1 h3{
   left:20px;
@@ -229,7 +229,7 @@ margin-top: -10px;
 }
 .footer{
   height: 200px;
-  
+
 }
 .footer h3{
 font-size: 15px;
