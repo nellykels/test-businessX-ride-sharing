@@ -2,7 +2,7 @@
 
 Question: A new Ride sharing company is entering the market in Lagos and they would like to make sure they don't mix up their commission from rides taken by independent riders on the platform. How can Flutterwave solve this? 
 
-ANSWER
+ANSWER:
 Flutterwave can solve this issue for the ride-sharing company by training them on the sub account and split payment features.
 -Firstly, the ride-sharing company needs to create an account on the Fluttterwave dashboard that would enable them make live and sandboxed API calls to Flutterwave API end points.
 -Thereafter, the ride-sharing company needs to create a sub-account on their Flutterwave dashboard for every registered driver on their platform. 
