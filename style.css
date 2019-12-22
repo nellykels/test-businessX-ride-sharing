@@ -1,0 +1,260 @@
+body{
+  margin: 0px;
+  padding 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 1200px;
+  height: 1020px;
+  margin: 0px auto;
+}
+.header{
+  height: 80px;
+  display: flex;
+  background-color: #08548c;
+}
+.logo{
+  height: 29px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 100px;
+}
+.header-layout{
+  margin-left:600px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.company{
+  margin-left: 10px;
+}
+.safety{
+  margin-left: 10px;
+
+}
+.help{
+  margin-left: 10px;
+}
+.main-body{
+  display: flex;
+  height: 80vh;
+
+}
+.body-content{
+  margin-left: 100px;
+}
+.body-content h1{
+  padding-top: 50px;
+  font-size: 60px;
+  font-weight: normal;
+  color: #08548c;
+}
+span{
+  font-weight: bold;
+}
+.body-content p{
+  color: #23232c;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 50px;
+}
+.learn-btn{
+  width: 216px;
+  height: 50px;
+  border: solid 1px #08548c;
+  background-color: #ffffff;
+}
+.how-it{
+  height: 740px;
+  background-color: #fbfbfb;
+  text-align: center;
+}
+.work-header{
+  font-size: 54px;
+  font-weight: 100;
+  color: #08548c;
+  text-align: center;
+  padding-top:50px;
+}
+.how-it p{
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: -30px;
+  text-align: center;
+  color: #23232c;
+}
+.how-it img{
+  object-fit: contain;
+}
+.demo-btn{
+  width: 216px;
+  height: 50px;
+  border: solid 1px #08548c;
+  background-color: #ffffff;
+   font-size: 16px;
+  color: #23232c;
+  margin-top: 20px;
+  margin-right: 80px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.footer h3{
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #394247;
+}
+ul{
+  list-style-type: none;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #a1acb3;
+  padding-inline-start: 0px;
+
+}
+select{
+  width: 135px;
+  height: 35px;
+  border-radius: 4px;
+  border: solid 1px #d5d8dc;
+  background-color: #ffffff;
+  font-size: 14px;
+  color: #a1acb3;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.biz{
+  margin-left: -150px;
+}
+.help1{
+  margin-left: -140px;
+}
+.socials{
+  margin-right: 270px;
+}
+.help1 h3{
+  left:20px;
+}
+.boxxx{
+  width: 200px;
+}
+.bluefoot{
+  height: 131px;
+  line-height: 131px;
+  text-align: center;
+  background-color: rgb(8, 84, 140);
+  color: #fff;
+}
+/*media query */
+@media screen and (max-width: 480px) {
+.container{
+    width: 100%;
+    height: 1020px;
+
+}
+.header{
+  height:auto;
+}
+.logo{
+  height: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+
+}
+.header-layout{
+  margin-left: 50px;
+  font-size: 12px;
+}
+.main-body{
+  display: block;
+  height: 320px;
+  margin-top: -30px;
+}
+.body-content{
+  margin-left: 80px;
+}
+.body-content h1{
+  font-size: 40px;
+}
+.body-content p{
+  font-size: 12px;
+}
+.car-image{
+  width: 50%;
+  height: 80%;
+  margin-left: 80px;
+  margin-top: -40px;
+}
+.how-it{
+  margin-top: 180px;
+  height: 400px;
+  background-color: #fbfbfb;
+  text-align: center;
+}
+work-header{
+  font-size: 25px;
+  font-weight: bold;
+}
+.how-it p{
+  font-size: 12px;
+}
+.how-it img{
+margin-top: -10px;
+  width: 80%;
+  height: 50%;
+}
+.demo-btn{
+  width: 150px;
+  height: 40px;
+   font-size: 14px;
+  margin-top: 10px;
+  margin-left:70px;
+}
+.footer{
+  height: 200px;
+  
+}
+.footer h3{
+font-size: 15px;
+}
+ul{
+  font-size: 12px;
+}
+.biz{
+  display: none;
+}
+.help1{
+  display: none;
+}
+.socials{
+  margin-left: 80px;
+}
+select{
+  width: 120px;
+  height: 25px;
+
+  font-size: 14px;
+}
+.bluefoot{
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: 400px;
+}
+}
